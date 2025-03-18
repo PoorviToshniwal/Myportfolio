@@ -150,7 +150,7 @@ h6 {
   background-color: var(--background-color);
   padding:  0;
   transition: all 0.5s;
-  z-index: 500;
+  z-index: 50;
 }
 
 .header .logo {
@@ -189,7 +189,7 @@ h6 {
 
 .navmenu ul {
   list-style: none;
-  padding: 0 0 20px 0;
+  padding: 0 0 0px 0;
   margin: 0;
   width: 140px;
 }
@@ -200,12 +200,12 @@ h6 {
   font-family: var(--nav-font);
   display: flex;
   align-items: center;
-  padding: 10px 18px;
+  padding: 0px 18px;
   margin-bottom: 8px;
   font-size: 15px;
   border-radius: 50px;
   background: color-mix(in srgb, var(--default-color), transparent 92%);
-  height: 56px;
+  height: 35px;
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
@@ -1559,7 +1559,8 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
-} var i = 0;
+.demo,
+var i = 0;
 var txt = 'Lorem ipsum typing effect!'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
